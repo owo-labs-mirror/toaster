@@ -23,7 +23,7 @@ await new Command()
 			"type": "deno",
 			"dependencies": []
 		}) + "\n");
-		console.log(colors.bold.green("Initialized project!"));
+		console.log(colors.bold.green("initialized project!"));
 	})
 
 	// install
