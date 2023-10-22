@@ -15,9 +15,9 @@ await new Command()
 
 	// init
 	.command("init", "initialize a toaster project")
-  	.action(async (options, ...args) => {
+  	.action((options, ...args) => {
 		let cwd = Deno.cwd().split("/");
-		await Deno.writeTextFile("toaster.json", JSON.stringify({
+		Deno.writeTextFileSync("toaster.json", JSON.stringify({
 			"name": cwd[cwd.length - 1],
 			"version": "0.1.0",
 			"type": "deno",
