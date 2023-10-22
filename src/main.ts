@@ -22,8 +22,8 @@ await new Command()
 			"version": "0.1.0",
 			"type": "deno",
 			"dependencies": []
-		}));
-		console.log("initialized project");
+		}) + "\n");
+		console.log(colors.bold.green("Initialized project!"));
 	})
 
 	// install
