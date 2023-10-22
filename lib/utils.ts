@@ -1,7 +1,7 @@
 /**
  * lib/utils.ts
  *
- * Utilities 
+ * Utilities for Toaster
  */
 
 import { ProjectType } from "./types.ts";
