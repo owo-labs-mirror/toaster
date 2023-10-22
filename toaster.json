@@ -1,0 +1,9 @@
+{
+	"name": "toaster",
+	"version": "2023.10.22",
+	"type": "deno",
+	"dependencies": [
+		"https://deno.land/x/cliffy@v1.0.0-rc.3/command/mod.ts",
+		"https://deno.land/x/cliffy@v1.0.0-rc.3/ansi/colors.ts"
+	]
+}
